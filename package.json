@@ -1,0 +1,26 @@
+{
+  "name": "timestampmicroservice",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "8.0.0",
+    "npm": "5.0.0"
+  },
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoyChristianVilla/TimestampMicroservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoyChristianVilla/TimestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/JoyChristianVilla/TimestampMicroservice#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
