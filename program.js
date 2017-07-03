@@ -37,6 +37,6 @@ app.get('/:date', function(req, res) {
   //Send the stringified json as the response to the client
   res.send(obj);
 });
-app.listen(3000, function() {
-  console.log('Congregation is running on port 3000');
+app.listen(process.env.PORT || 3000, function() {
+  console.log('Congregation is running');
 });
